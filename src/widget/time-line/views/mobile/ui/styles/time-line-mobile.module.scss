@@ -1,0 +1,27 @@
+.root {
+	position: relative;
+	padding: 20px;
+}
+
+.center {
+	position: relative;
+	
+	justify-content: center;
+	align-items: center;
+
+}
+
+.title {
+	position: relative;
+	
+	margin-top: 60px;
+	margin-bottom: 60px;
+	
+}
+
+.title h2 {
+	color: #42567a;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.2;
+}

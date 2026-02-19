@@ -1,0 +1,79 @@
+.root {
+	margin: 25px auto;
+	position: relative;
+}
+
+.label {
+	padding-top: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #42567a;
+}
+
+.br {
+	margin-top: 40px;
+	border: 1px #c7cdd9 solid;
+}
+
+.carousel {
+	position: relative;
+	width: 530px;
+	height: 530px;
+	border-radius: 50%;
+	border: 1px solid rgba(66, 86, 122, 0.2);
+	z-index: 50;
+
+	transition: transform 1s ease-in-out;
+}
+
+.centerLabel {
+	display: flex;
+	font-size: 56px;
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+
+	&--startYear {
+		color: #5d5fef;
+	}
+
+	&--endYear {
+		color: #ef5da8;
+	}
+}
+
+.navBtn {
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	border: 1px solid rgba(66, 86, 122, 0.3);
+	background: white;
+	color: #42567a;
+	font-size: 20px;
+	cursor: pointer;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transition: all 0.2s ease;
+
+	&:hover {
+		background: #f4f5f9;
+		border-color: #42567a;
+	}
+
+	&:active {
+		transform: scale(0.95);
+	}
+
+	&:disabled {
+		opacity: 0.8;
+		cursor: not-allowed;
+		background: #f4f5f9;
+		border-color: rgba(66, 86, 122, 0.15);
+	}
+}

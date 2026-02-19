@@ -1,0 +1,63 @@
+.root {
+	position: relative;
+
+	gap: 12px;
+	align-items: center;
+}
+
+.year {
+	color: #3877ee;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 25px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	max-width: 320px;
+
+	p {
+		color: #42567a;
+		font-size: 16px;
+		line-height: 1.3;
+	}
+}
+
+.nav {
+	&--prev {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 40px !important;
+		height: 40px !important;
+		border-radius: 50%;
+		background-color: white;
+		border: none;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+		z-index: 10;
+		left: -55px;
+	}
+
+	&--next {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 40px !important;
+		height: 40px !important;
+		border-radius: 50%;
+		background-color: white;
+		border: none;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+		z-index: 10;
+		right: 10px;
+	}
+}
