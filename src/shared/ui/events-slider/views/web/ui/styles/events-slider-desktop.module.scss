@@ -27,7 +27,7 @@
 .nav {
 	&--prev {
 		position: absolute;
-		top: 50%;
+		top: 10%;
 		transform: translateY(-50%);
 		width: 40px !important;
 		height: 40px !important;
@@ -45,7 +45,7 @@
 
 	&--next {
 		position: absolute;
-		top: 50%;
+		top: 10%;
 		transform: translateY(-50%);
 		width: 40px !important;
 		height: 40px !important;

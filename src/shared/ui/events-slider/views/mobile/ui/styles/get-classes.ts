@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind'
-import classes from './events-slider.module.scss'
+import classes from './events-slider-mobile.module.scss'
 
 const cn = classNames.bind(classes)
 
